@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+	Nishit's Web
+	</title>
+	<style>
+		.par{
+			width:fit-content;
+			border: 5px outset rgb(0, 28, 153);
+			padding-left: 2%;
+			padding-right: 2%;
+			outline: 5px solid rgb(255, 153, 0);
+			margin-left:27%;
+			}
+	</style>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<ul class="leftnav">
+		<li><a href="file:///D:/Web%20Tech%20Lab/Lab_2_Home.html">Home</a></li>
+		<li><a href="file:///D:/Web%20Tech%20Lab/Lab_2_About.html">About</a></li>
+		<li><a class="active" href="file:///D:/Web%20Tech%20Lab/Lab_3_Form.html">Review</a</li>
+		<li><a href="#Contact">Contact</a></li>
+	</ul>
+	<H1 name="top" style="margin-left:27%;  margin-top: 0%;">
+	Review of the Website
+	</H1>
+	<p style="margin-left:27%; font-size: 20px;">I would love to hear your thoughts, suggestions, concerns or problems with the website so that I can improve..!!</p>
+	<form style="margin-left:27%;">
+	<fieldset>
+		<legend>Feedback Form</legend>
+		<label for="firstname">First name :</label><br>
+		<input type="text" name="firstname" id="firstname" required><br>
+		<label for="lastname">Last name :</label><br>
+		<input type="text" name="lastname" id="lastname" required><br>
+		Gender :<br>
+		<input type="radio" name="gender" value="Male" checked>Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Others">Others<br>
+		<label for="birthday">DOB :</label><br>
+		<input type="date" name="birthday" id="birthday" required><br>
+		<label for="batch">Batch :</label><br>
+		<select id="batch" name="Batch" required>    
+			<option value="Senior" selected>Senior</option>    
+			<option value="Junior">Junior</option>    
+			<option value="Sophomore">Sophomore</option>    
+			<option value="Fresher">Fresher</option>  
+		</select><br>
+		<label for="branch">Branch :</label><br>
+		<input list="branches" name="branch" id="branch" required>
+		<datalist id="branches">
+			<option value="CSE" selected>
+			<option value="CSE-NS">
+			<option value="CSE-DA">
+			<option value="CSE-AI">
+			<option value="ECE">
+			<option value="ECE-ES">
+			<option value="ECE-VLSI">
+			<option value="MECH">
+			<option value="Others">
+		</datalist><br>
+		<label for="rating">Rating (1 - Worst & 5 - Best) :</label><br>
+		<input type="number" name="rating" id="rating" min="1" max="5" required><br>
+		<label for="suggestions">Suggestions (If Any) :</label><br>
+		<textarea name="suggestions" id="suggestions" rows="3" cols="40"></textarea><br>
+		<label for="file">Your Image :</label><br>
+		<input type="file" name="file" id="file"><br><br>
+		<input type="submit" value="Submit"> 
+		<input type="reset" value="Reset">
+	</fieldset>
+	</form>
+	<video width="320" height="240" poster="logo.jpg" controls loop muted autoplay style="margin-left:27%;">
+	<source src="VITAP.mp4" type="video/mp4">
+	Your browser does not support the video format.
+	</video>
+	<hr color="black" size="2" style="margin-left:27%;">
+	<p class="par" style="font-size: 20px;">To learn more about Web development visit <a href="https://www.w3schools.com/" target="_blank"">W3Schools</a> or follow the video provided below.</p><br>
+	<iframe style="margin-left:27%;" width="560" height="315" src="https://www.youtube.com/embed/Q33KBiDriJY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<hr color="black" size="2" style="margin-left:27%;">
+	<h3 id="Contact" style="margin-left:27%;"><i>Contact</i></h3>
+	<a style="margin-left:27%;" href="https://www.linkedin.com/in/nishit-verma-0bba911a5" target="_blank"><img src="https://img.shields.io/badge/-NishitVerma-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/nishit-verma-0bba911a5" alt="Linkedin Badge"></a>  <a href="mailto:nishitverma1312@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-NishitVerma-c14438?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=mailto:nishitverma1312@gmail.com" alt="Gmail Badge"></a> <a href="https://stackoverflow.com/users/14736743/nishit-verma" target="_blank"><img src="https://img.shields.io/badge/-NishitVerma-black?style=flat-square&amp;logo=Stack%20OverFlow&amp;logoColor=Orange&amp;link=https://stackoverflow.com/users/14736743/nishit-verma" alt="Stack OverFlow Badge"></a> <a href="https://github.com/Nishit3479" target="_blank"><img src="https://img.shields.io/badge/-NishitVerma-black?style=flat-square&amp;logo=GitHub&amp;logoColor=White&amp;link=https://github.com/Nishit3479" alt="GitHub Badge"></a> <a href="https://www.hackerrank.com/nishitverma1312" target="_blank"><img src="https://img.shields.io/badge/-NishitVerma-black?style=flat-square&amp;logo=HackerRank&amp;logoColor=green&amp;link=https://www.hackerrank.com/nishitverma1312" alt="HackerRank Badge"></a></p>
+	<a href="#top" style="font-size: 15px; margin-left:27%;">Back to Top</a>
+</body>
+</html>
